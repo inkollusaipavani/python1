@@ -1,5 +1,4 @@
-num=int(input("enter a number"))
-mod=(num%2)
+num=int(raw_input())
 if mod>0:
   print("Odd")
 else:
