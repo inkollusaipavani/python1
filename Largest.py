@@ -8,5 +8,4 @@ elif (number2 > number1) and (number2 > number3):
  biggest = number2
 else:
  biggest = number3
-
 print(biggest)
