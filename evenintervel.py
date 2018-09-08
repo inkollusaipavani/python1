@@ -1,5 +1,5 @@
-lower= int(input("Enter the lower limit : "))
-upper= int(input("Enter the upper limit : "))
+lower= int(input())
+upper= int(input())
 for i in range(lower,upper):
   if(i%2 == 0):
     print i,
