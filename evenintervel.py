@@ -1,6 +1,5 @@
-lower_limit=int(raw_input())
-upper_limit=int(raw_input())
-
-for i in range(lower_limit,upper_limit-1):
-   if(i%2 == 0):
-       print i,
+lower= int(input("Enter the lower limit : "))
+upper= int(input("Enter the upper limit : "))
+for i in range(lower,upper):
+  if(i%2 == 0):
+    print i,
