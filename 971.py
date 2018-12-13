@@ -1,7 +1,7 @@
-n=int(raw_input())
+num1=int(raw_input())
 reverse=0
-while(n>0):
-    remainder=n%10
+while(num1>0):
+    remainder=num1%10
     reverse=reverse*10+remainder
-    n=n/10
+    num1=num1/10
 print reverse   
