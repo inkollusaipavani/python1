@@ -1,7 +1,7 @@
-num=int(raw_input())
-rev=0
-while(num>0):
-    remainder=num%10
-    rev=rev*10+remainder
-    num=num/10
-print rev    
+n=int(raw_input())
+reverse=0
+while(n>0):
+    remainder=n%10
+    reverse=reverse*10+remainder
+    n=n/10
+print reverse   
